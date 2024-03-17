@@ -1,10 +1,10 @@
-package com.example.buy.sell;
+package com.example.shop.dudu;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BuySellApplicationTests {
+class ShopDuduApplicationTests {
 
 	@Test
 	void contextLoads() {
