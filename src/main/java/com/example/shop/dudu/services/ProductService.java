@@ -14,10 +14,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ProductService {
     private final ProductRepository productRepository;
-//    {
-//        products.add(new Product(++ID,"Khalil Mamoon", "Их гаджеты по праву признаны одними из самых лучших и качественных. ", 6600, "USA"));
-//        products.add(new Product(++ID,"FUMO", "Особенно насыщенный, густой и ароматный.", 9000, "Egypt"));
-//    }
+
     public List<Product> listProducts(String title) {
         List<Product> products = productRepository.findAll();
         if (title != null) {
