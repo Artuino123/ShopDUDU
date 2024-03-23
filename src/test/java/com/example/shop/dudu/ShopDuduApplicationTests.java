@@ -9,5 +9,4 @@ class ShopDuduApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
